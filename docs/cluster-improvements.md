@@ -19,9 +19,7 @@ To obtain available metrics, we could install Prometheus. This tool would allow 
 
         Configuring AlertManager also takes time, a service responsible for generating alerts based on configuration.
 
-        Estimated time: It may be proportional to the workload to be monitored.
-
-        At least Vanilla, it should take a couple of days to configure it properly, assuming there are federations and external data persistence; otherwise, the time is significantly reduced.
+        Estimated time: It may be proportional to the workload to be monitored. At least Vanilla, it should take a couple of days to configure it properly, assuming there are federations and external data persistence; otherwise, the time is significantly reduced.
 
     2. Service mesh: Installing a service mesh such as LinkerD deploys a sidecar on each pod, properly annotated.
 
