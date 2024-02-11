@@ -3,7 +3,7 @@
 
 ## Topology
 
-![image](./images/WeFox.png)
+![image](./images/topology.png)
 
 ## Terraform Infrastructure
 ### Description
