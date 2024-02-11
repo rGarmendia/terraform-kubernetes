@@ -92,6 +92,8 @@ The version must be **6.5.1**.
 
 Change the Docker image tag from 6.5.1 to 6.5.3, commit and push your changes. Go into the ArgoCD, and sync the app.
 
+In a typical workflow, an application undergoes testing, compilation, and containerization, or solely containerization. The resulting image is then tagged and pushed to a registry, with the new tag assigned in the values file. Consequently, ArgoCD detects these changes and synchronizes with the Kubernetes cluster.
+
 Check it, here http://podinfo.wefox.localhost:8080/.
 
 **Please, remember that the change may take time.**
