@@ -46,7 +46,7 @@ kubectl get nodes
 
 ## ArgoCD Apps
 ### Description
-#### For application deployment, we'll be utilizing ArgoCD. You can find the ArgoCD apps here [ArgoCD App](https://github.com/rGarmendia/argocd-apps/tree/main).
+#### For application deployment, we'll be utilizing GitOps with ArgoCD. You can find the ArgoCD apps here [ArgoCD App](https://github.com/rGarmendia/argocd-apps/tree/main).
 
 You can access to the manifest file under [this path](https://github.com/rGarmendia/argocd-apps/tree/main/podinfo). Both downloading the file, or cloning the repository to get the manifest file will work.
 
