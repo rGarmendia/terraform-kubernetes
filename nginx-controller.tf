@@ -1,5 +1,5 @@
 resource "helm_release" "nginx_ingress" {
-  depends_on        = [ kind_cluster.default ]
+  depends_on        = [ kind_cluster.wefox_challenge_cluster ]
   name              = "nginx-ingress-controller"
   create_namespace  = true
   namespace         = "nginx-ingress"

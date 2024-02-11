@@ -1,4 +1,4 @@
-resource "kind_cluster" "default" {
+resource "kind_cluster" "wefox_challenge_cluster" {
     name           = "wefox-challenge-cluster"
     kubeconfig_path = local.k8s_config_path
     wait_for_ready = true

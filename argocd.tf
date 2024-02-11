@@ -1,7 +1,7 @@
 
 
 resource "helm_release" "argocd" {
-  depends_on = [ kind_cluster.default ]
+  depends_on = [ kind_cluster.wefox_challenge_cluster ]
   name       = "argocd"
   create_namespace = "true"
   namespace = "argocd"
