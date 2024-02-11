@@ -48,6 +48,8 @@ The service mesh also applies its virtues here; however, applications generally 
 
 Estimated time: Proportional to the workload.
 
+4. For visualization the tool is Grafana. We can use is to provide information gathered in most of these tools.
+
 ## 2. Scalability
 Production clusters sometimes receive traffic that exceeds their default capacities. Therefore, it is important to have a scaling strategy for such situations.
 
