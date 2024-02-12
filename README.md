@@ -1,5 +1,5 @@
 # WeFox
-> Disclaimer: For the sake of simplicity, we will address the utilization of this entire toolset from the repository's README. Please note that the prerequisites for its functionality are outlined in various repositories as per best practices.
+> Disclaimer: For the sake of simplicity, we're going to explain how to use this whole toolset in the repository's README. It's important to note that getting everything to work for this project means using several different repositories, just like best practices suggest.
 
 ## Topology
 
